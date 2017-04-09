@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6EA5ACD1E9A7BB6007D96FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5ACC1E9A7BB6007D96FC /* main.m */; };
+		B6EA5AD01E9A7BB6007D96FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5ACF1E9A7BB6007D96FC /* AppDelegate.m */; };
+		B6EA5AD31E9A7BB6007D96FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5AD21E9A7BB6007D96FC /* ViewController.m */; };
+		B6EA5AD61E9A7BB6007D96FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EA5AD41E9A7BB6007D96FC /* Main.storyboard */; };
+		B6EA5AD81E9A7BB6007D96FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EA5AD71E9A7BB6007D96FC /* Assets.xcassets */; };
+		B6EA5ADB1E9A7BB6007D96FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EA5AD91E9A7BB6007D96FC /* LaunchScreen.storyboard */; };
+		B6EA5AE61E9A7BB6007D96FC /* CYImageClipperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5AE51E9A7BB6007D96FC /* CYImageClipperTests.m */; };
+		B6EA5AF11E9A7BB6007D96FC /* CYImageClipperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5AF01E9A7BB6007D96FC /* CYImageClipperUITests.m */; };
+		B6EA5B121E9A90CF007D96FC /* CYClipperGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5B0D1E9A90CF007D96FC /* CYClipperGridView.m */; };
+		B6EA5B131E9A90CF007D96FC /* CYClipperView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5B0F1E9A90CF007D96FC /* CYClipperView.m */; };
+		B6EA5B141E9A90CF007D96FC /* UIImage+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA5B111E9A90CF007D96FC /* UIImage+CYExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6EA5AE21E9A7BB6007D96FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EA5AC01E9A7BB5007D96FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EA5AC71E9A7BB6007D96FC;
+			remoteInfo = CYImageClipper;
+		};
+		B6EA5AED1E9A7BB6007D96FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EA5AC01E9A7BB5007D96FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EA5AC71E9A7BB6007D96FC;
+			remoteInfo = CYImageClipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6EA5AC81E9A7BB6007D96FC /* CYImageClipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYImageClipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EA5ACC1E9A7BB6007D96FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6EA5ACE1E9A7BB6007D96FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6EA5ACF1E9A7BB6007D96FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6EA5AD11E9A7BB6007D96FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6EA5AD21E9A7BB6007D96FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6EA5AD51E9A7BB6007D96FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6EA5AD71E9A7BB6007D96FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6EA5ADA1E9A7BB6007D96FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6EA5ADC1E9A7BB6007D96FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EA5AE11E9A7BB6007D96FC /* CYImageClipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYImageClipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EA5AE51E9A7BB6007D96FC /* CYImageClipperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYImageClipperTests.m; sourceTree = "<group>"; };
+		B6EA5AE71E9A7BB6007D96FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EA5AEC1E9A7BB6007D96FC /* CYImageClipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYImageClipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EA5AF01E9A7BB6007D96FC /* CYImageClipperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYImageClipperUITests.m; sourceTree = "<group>"; };
+		B6EA5AF21E9A7BB6007D96FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EA5AFE1E9A8053007D96FC /* iPhoneMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneMacro.h; sourceTree = "<group>"; };
+		B6EA5B0C1E9A90CF007D96FC /* CYClipperGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYClipperGridView.h; sourceTree = "<group>"; };
+		B6EA5B0D1E9A90CF007D96FC /* CYClipperGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYClipperGridView.m; sourceTree = "<group>"; };
+		B6EA5B0E1E9A90CF007D96FC /* CYClipperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYClipperView.h; sourceTree = "<group>"; };
+		B6EA5B0F1E9A90CF007D96FC /* CYClipperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYClipperView.m; sourceTree = "<group>"; };
+		B6EA5B101E9A90CF007D96FC /* UIImage+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+CYExtension.h"; path = "CYClipperView/UIImage+CYExtension.h"; sourceTree = "<group>"; };
+		B6EA5B111E9A90CF007D96FC /* UIImage+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CYExtension.m"; path = "CYClipperView/UIImage+CYExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EA5AC51E9A7BB6007D96FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA5ADE1E9A7BB6007D96FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA5AE91E9A7BB6007D96FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EA5ABF1E9A7BB5007D96FC = {
+			isa = PBXGroup;
+			children = (
+				B6EA5ACA1E9A7BB6007D96FC /* CYImageClipper */,
+				B6EA5AE41E9A7BB6007D96FC /* CYImageClipperTests */,
+				B6EA5AEF1E9A7BB6007D96FC /* CYImageClipperUITests */,
+				B6EA5AC91E9A7BB6007D96FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EA5AC91E9A7BB6007D96FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA5AC81E9A7BB6007D96FC /* CYImageClipper.app */,
+				B6EA5AE11E9A7BB6007D96FC /* CYImageClipperTests.xctest */,
+				B6EA5AEC1E9A7BB6007D96FC /* CYImageClipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EA5ACA1E9A7BB6007D96FC /* CYImageClipper */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA5B0B1E9A90CF007D96FC /* CYClipperView */,
+				B6EA5AFE1E9A8053007D96FC /* iPhoneMacro.h */,
+				B6EA5ACE1E9A7BB6007D96FC /* AppDelegate.h */,
+				B6EA5ACF1E9A7BB6007D96FC /* AppDelegate.m */,
+				B6EA5AD11E9A7BB6007D96FC /* ViewController.h */,
+				B6EA5AD21E9A7BB6007D96FC /* ViewController.m */,
+				B6EA5B101E9A90CF007D96FC /* UIImage+CYExtension.h */,
+				B6EA5B111E9A90CF007D96FC /* UIImage+CYExtension.m */,
+				B6EA5AD41E9A7BB6007D96FC /* Main.storyboard */,
+				B6EA5AD71E9A7BB6007D96FC /* Assets.xcassets */,
+				B6EA5AD91E9A7BB6007D96FC /* LaunchScreen.storyboard */,
+				B6EA5ADC1E9A7BB6007D96FC /* Info.plist */,
+				B6EA5ACB1E9A7BB6007D96FC /* Supporting Files */,
+			);
+			path = CYImageClipper;
+			sourceTree = "<group>";
+		};
+		B6EA5ACB1E9A7BB6007D96FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA5ACC1E9A7BB6007D96FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6EA5AE41E9A7BB6007D96FC /* CYImageClipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA5AE51E9A7BB6007D96FC /* CYImageClipperTests.m */,
+				B6EA5AE71E9A7BB6007D96FC /* Info.plist */,
+			);
+			path = CYImageClipperTests;
+			sourceTree = "<group>";
+		};
+		B6EA5AEF1E9A7BB6007D96FC /* CYImageClipperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA5AF01E9A7BB6007D96FC /* CYImageClipperUITests.m */,
+				B6EA5AF21E9A7BB6007D96FC /* Info.plist */,
+			);
+			path = CYImageClipperUITests;
+			sourceTree = "<group>";
+		};
+		B6EA5B0B1E9A90CF007D96FC /* CYClipperView */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA5B0C1E9A90CF007D96FC /* CYClipperGridView.h */,
+				B6EA5B0D1E9A90CF007D96FC /* CYClipperGridView.m */,
+				B6EA5B0E1E9A90CF007D96FC /* CYClipperView.h */,
+				B6EA5B0F1E9A90CF007D96FC /* CYClipperView.m */,
+			);
+			path = CYClipperView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6EA5AC71E9A7BB6007D96FC /* CYImageClipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EA5AF51E9A7BB6007D96FC /* Build configuration list for PBXNativeTarget "CYImageClipper" */;
+			buildPhases = (
+				B6EA5AC41E9A7BB6007D96FC /* Sources */,
+				B6EA5AC51E9A7BB6007D96FC /* Frameworks */,
+				B6EA5AC61E9A7BB6007D96FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYImageClipper;
+			productName = CYImageClipper;
+			productReference = B6EA5AC81E9A7BB6007D96FC /* CYImageClipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6EA5AE01E9A7BB6007D96FC /* CYImageClipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EA5AF81E9A7BB6007D96FC /* Build configuration list for PBXNativeTarget "CYImageClipperTests" */;
+			buildPhases = (
+				B6EA5ADD1E9A7BB6007D96FC /* Sources */,
+				B6EA5ADE1E9A7BB6007D96FC /* Frameworks */,
+				B6EA5ADF1E9A7BB6007D96FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EA5AE31E9A7BB6007D96FC /* PBXTargetDependency */,
+			);
+			name = CYImageClipperTests;
+			productName = CYImageClipperTests;
+			productReference = B6EA5AE11E9A7BB6007D96FC /* CYImageClipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6EA5AEB1E9A7BB6007D96FC /* CYImageClipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EA5AFB1E9A7BB6007D96FC /* Build configuration list for PBXNativeTarget "CYImageClipperUITests" */;
+			buildPhases = (
+				B6EA5AE81E9A7BB6007D96FC /* Sources */,
+				B6EA5AE91E9A7BB6007D96FC /* Frameworks */,
+				B6EA5AEA1E9A7BB6007D96FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EA5AEE1E9A7BB6007D96FC /* PBXTargetDependency */,
+			);
+			name = CYImageClipperUITests;
+			productName = CYImageClipperUITests;
+			productReference = B6EA5AEC1E9A7BB6007D96FC /* CYImageClipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EA5AC01E9A7BB5007D96FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenyan;
+				TargetAttributes = {
+					B6EA5AC71E9A7BB6007D96FC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CT8Q72QJMP;
+						ProvisioningStyle = Automatic;
+					};
+					B6EA5AE01E9A7BB6007D96FC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CT8Q72QJMP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6EA5AC71E9A7BB6007D96FC;
+					};
+					B6EA5AEB1E9A7BB6007D96FC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CT8Q72QJMP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6EA5AC71E9A7BB6007D96FC;
+					};
+				};
+			};
+			buildConfigurationList = B6EA5AC31E9A7BB5007D96FC /* Build configuration list for PBXProject "CYImageClipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6EA5ABF1E9A7BB5007D96FC;
+			productRefGroup = B6EA5AC91E9A7BB6007D96FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EA5AC71E9A7BB6007D96FC /* CYImageClipper */,
+				B6EA5AE01E9A7BB6007D96FC /* CYImageClipperTests */,
+				B6EA5AEB1E9A7BB6007D96FC /* CYImageClipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EA5AC61E9A7BB6007D96FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA5ADB1E9A7BB6007D96FC /* LaunchScreen.storyboard in Resources */,
+				B6EA5AD81E9A7BB6007D96FC /* Assets.xcassets in Resources */,
+				B6EA5AD61E9A7BB6007D96FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA5ADF1E9A7BB6007D96FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA5AEA1E9A7BB6007D96FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EA5AC41E9A7BB6007D96FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA5AD31E9A7BB6007D96FC /* ViewController.m in Sources */,
+				B6EA5B141E9A90CF007D96FC /* UIImage+CYExtension.m in Sources */,
+				B6EA5AD01E9A7BB6007D96FC /* AppDelegate.m in Sources */,
+				B6EA5B131E9A90CF007D96FC /* CYClipperView.m in Sources */,
+				B6EA5B121E9A90CF007D96FC /* CYClipperGridView.m in Sources */,
+				B6EA5ACD1E9A7BB6007D96FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA5ADD1E9A7BB6007D96FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA5AE61E9A7BB6007D96FC /* CYImageClipperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EA5AE81E9A7BB6007D96FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA5AF11E9A7BB6007D96FC /* CYImageClipperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EA5AE31E9A7BB6007D96FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EA5AC71E9A7BB6007D96FC /* CYImageClipper */;
+			targetProxy = B6EA5AE21E9A7BB6007D96FC /* PBXContainerItemProxy */;
+		};
+		B6EA5AEE1E9A7BB6007D96FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EA5AC71E9A7BB6007D96FC /* CYImageClipper */;
+			targetProxy = B6EA5AED1E9A7BB6007D96FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6EA5AD41E9A7BB6007D96FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EA5AD51E9A7BB6007D96FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6EA5AD91E9A7BB6007D96FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EA5ADA1E9A7BB6007D96FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6EA5AF31E9A7BB6007D96FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6EA5AF41E9A7BB6007D96FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6EA5AF61E9A7BB6007D96FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT8Q72QJMP;
+				INFOPLIST_FILE = CYImageClipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepAI.CYImageClipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6EA5AF71E9A7BB6007D96FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CT8Q72QJMP;
+				INFOPLIST_FILE = CYImageClipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepAI.CYImageClipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6EA5AF91E9A7BB6007D96FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CT8Q72QJMP;
+				INFOPLIST_FILE = CYImageClipperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepAI.CYImageClipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYImageClipper.app/CYImageClipper";
+			};
+			name = Debug;
+		};
+		B6EA5AFA1E9A7BB6007D96FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CT8Q72QJMP;
+				INFOPLIST_FILE = CYImageClipperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepAI.CYImageClipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYImageClipper.app/CYImageClipper";
+			};
+			name = Release;
+		};
+		B6EA5AFC1E9A7BB6007D96FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CT8Q72QJMP;
+				INFOPLIST_FILE = CYImageClipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepAI.CYImageClipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYImageClipper;
+			};
+			name = Debug;
+		};
+		B6EA5AFD1E9A7BB6007D96FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CT8Q72QJMP;
+				INFOPLIST_FILE = CYImageClipperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepAI.CYImageClipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYImageClipper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EA5AC31E9A7BB5007D96FC /* Build configuration list for PBXProject "CYImageClipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA5AF31E9A7BB6007D96FC /* Debug */,
+				B6EA5AF41E9A7BB6007D96FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EA5AF51E9A7BB6007D96FC /* Build configuration list for PBXNativeTarget "CYImageClipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA5AF61E9A7BB6007D96FC /* Debug */,
+				B6EA5AF71E9A7BB6007D96FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6EA5AF81E9A7BB6007D96FC /* Build configuration list for PBXNativeTarget "CYImageClipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA5AF91E9A7BB6007D96FC /* Debug */,
+				B6EA5AFA1E9A7BB6007D96FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6EA5AFB1E9A7BB6007D96FC /* Build configuration list for PBXNativeTarget "CYImageClipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EA5AFC1E9A7BB6007D96FC /* Debug */,
+				B6EA5AFD1E9A7BB6007D96FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EA5AC01E9A7BB5007D96FC /* Project object */;
+}
