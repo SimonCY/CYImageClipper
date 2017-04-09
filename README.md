@@ -1,6 +1,8 @@
-# CYImageClipper
+# CYImageClipper（初版）
+
 图片裁剪自定义选择框(暂时只支持缩放手势和正方形)
-暂时自动边缘识别和适应处理
+
+加了自动边缘识别和自适应
 
 ![这里写图片描述](https://github.com/SimonCY/CYImageClipper/raw/master/shortCut/shortCut.gif) 
 
