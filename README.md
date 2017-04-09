@@ -1,5 +1,6 @@
 # CYImageClipper
 图片裁剪自定义选择框(暂时只支持缩放手势和正方形)
+暂时自动边缘识别和适应处理
 
 ![这里写图片描述](https://github.com/SimonCY/CYImageClipper/raw/master/shortCut/shortCut.gif) 
 
@@ -29,14 +30,15 @@
 
 2.裁剪图片
 ```objc
-//可以直接使用这个方法裁剪当前图片
-self.output.image = [self.selectView clipInputImage];
+    //可以直接使用这个方法裁剪当前图片
+    self.output.image = [self.selectView clipInputImage];
 
-/** 如需裁剪多张图片，可以配合originalRect属性和附赠的裁剪方法自行裁剪
-@property (assign,nonatomic,readonly) CGRect originalRect;
-- (UIImage *)cutImage:(UIImage *)inputImage forRect:(CGRect)usebleRect;
-*、/
+    /** 如需裁剪多张图片，可以配合originalRect属性和附赠的裁剪方法自行裁剪
+    @property (assign,nonatomic,readonly) CGRect originalRect;
+    - (UIImage *)cutImage:(UIImage *)inputImage forRect:(CGRect)usebleRect;
+    */
 
 ```
 ##编者注：
-如果觉得好用，请右上角star
+
+如果觉得好用，请右上角star,欢迎提出宝贵建议，谢谢！
